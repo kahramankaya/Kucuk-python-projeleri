@@ -1,0 +1,6 @@
+list=[1,3,5,67,234,65,567,34,5,656,789,90,7,351,234,2,2,2,34,15,56,7,8,89,78]
+ıstenılenler=[]
+for m in list:
+    if m%3==0:
+        ıstenılenler.append(m)
+print(ıstenılenler)
