@@ -1,0 +1,7 @@
+list=[5,54,54,54,87,213,9,3,4,43,4,43,54,354,54,4,367,43435,4,45,4]
+tek_sayıların_karesı=[]
+for n in list:
+    if n%2==1:
+        n=n**2
+        tek_sayıların_karesı.append(n)
+print(tek_sayıların_karesı)
