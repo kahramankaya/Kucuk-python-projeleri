@@ -1,0 +1,9 @@
+a=int(input("sayınızı_gırınız: "))
+b=int(input("sayınızı_gırınız: "))
+c=int(input("sayınızı_gırınız: "))
+if a>b and a>c:
+    print(f"en_buyuk_sayı: {a}'dır")
+elif b>c:
+    print(f"en_buyuk_sayı: {b}'dır")
+else:
+    print(f"en_buyuk_sayı: {c}'dır")
