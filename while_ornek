@@ -1,0 +1,7 @@
+# for range kullanmadan elemanları yazdırdım.
+list=["dj","sdlkv","kdl","oeı","öxm","qygsyu"]
+i=-1
+while True:
+    i=i+1
+    if i<6:
+        print(list[i])
