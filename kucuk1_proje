@@ -1,0 +1,6 @@
+#listedeki değişkenlerin baş harflerini yazdırdım ama istemediği atlayıp istediğim baş harfleri yazzdırdım.
+list=["dj","sdlkv","kdl","oeı","öxm","qygsyu"]
+for k in list:
+    if k[0]=="q":
+        continue
+    print(k[0])
