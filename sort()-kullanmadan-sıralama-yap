@@ -1,0 +1,25 @@
+#sayıları kucukten buyuge sıralama. sort() kullanmadan.
+liste = [77,2, 11, 9, 3, 79, 4,-4,-89,-21,56,785,365,98,213]
+liste2 = []
+while len(liste)>0:
+    for i in liste:
+        if i == min(liste):
+            liste2.append(i)
+            liste.remove(i)
+        else:
+            liste.remove(i)
+            liste.insert(-1,i)
+            
+print(liste2)
+
+
+
+
+#baska bır yol
+liste = [2, 5, 3, 7, 6, 4, 8, 9]
+liste2 = []
+
+while len(liste)!=0:
+  liste2.append(min(liste))
+  liste.remove(min(liste))
+print(liste2)
