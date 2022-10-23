@@ -1,0 +1,8 @@
+
+kelıme_bılgısı=dict()
+for m in range(1,4):
+    key=input("kelıme=")
+    value=input("anlam=")
+    kelıme_bılgısı[key]=value
+
+print(kelıme_bılgısı) # {'hero': 'kahraman', 'mther': 'anne', 'mouse': 'fare'} .. bu çıkar.
