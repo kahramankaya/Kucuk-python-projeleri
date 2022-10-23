@@ -1,0 +1,8 @@
+list=[]
+ısım="kahraman_kaya"
+for m in ısım:
+    if m=="a":
+        continue
+    else:
+        list.append(m)
+print(list)
