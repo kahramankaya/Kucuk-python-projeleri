@@ -1,0 +1,27 @@
+#EKOK YOL1
+def ekok(sayı1,sayı2):
+    for m in range(min(sayı1,sayı2),(sayı1*sayı2)+1):
+        if m%sayı1==0 and m%sayı2==0:
+            return m           
+print(ekok(13,17))
+
+
+
+
+#EKOK YOL2
+def islem(sayi_bir, sayi_iki):
+    sonuc = 0
+    if sayi_bir>sayi_iki:
+        i = 0
+        while sayi_iki>=i:
+            i = i  +1
+            if sayi_bir % i == 0 and sayi_iki % i == 0:
+                sonuc = i
+    elif sayi_iki>sayi_bir:
+       m = 0
+       while sayi_bir>=m:
+           m = m + 1
+           if sayi_bir % m == 0 and sayi_iki % m == 0:
+               sonuc = m
+    return sonuc
+print(islem(15,30))
