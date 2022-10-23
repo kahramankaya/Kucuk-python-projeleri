@@ -1,0 +1,6 @@
+ısım=input("lutfen_yazdırmak_ıstedıgınız_ısmı_gırınız: ")
+numara=int(input("yazdırmak_ıstersın= "))
+def fx1(numara,ısım):
+    for m in range(numara):
+        print(ısım)
+fx1(numara,ısım)
