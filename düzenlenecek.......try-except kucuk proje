@@ -1,0 +1,19 @@
+# bir sayı gırıldıgınde for dongusunden dolayı bır suru kez aynı sonucu yazıyor. ben tek sefer de bunu yazdırmak ıstıyorum.
+liste=[4,45,67,8,4,789,64,36]
+def fx():
+    try:
+        number=float(input("listede var mı= "))
+        for m in liste:
+            if m==number:
+                print(True)
+            else:
+                print(False)
+    except:
+        print("listede sadece float deger bulunuyor. lutfen uygun deger gırınız...")
+        fx()
+        
+fx()
+
+
+
+
