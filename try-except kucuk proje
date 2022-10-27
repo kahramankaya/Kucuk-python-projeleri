@@ -1,0 +1,17 @@
+liste=[4,45,67,8,4,789,64,36]
+def fx():
+    try:
+        kaho=float(input("listede var mı= "))
+        for m in liste:
+            if m==kaho:
+                print(True)
+            else:
+                print(False)
+    except:
+        print("kj")
+        
+fx()
+
+
+
+
