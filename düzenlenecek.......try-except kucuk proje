@@ -1,4 +1,5 @@
 # bir sayı gırıldıgınde for dongusunden dolayı bır suru kez aynı sonucu yazıyor. ben tek sefer de bunu yazdırmak ıstıyorum.
+1.ornek:
 liste=[4,45,67,8,4,789,64,36]
 def fx():
     try:
@@ -13,6 +14,33 @@ def fx():
         fx()
         
 fx()
+
+
+
+
+2.ornek:
+kullanıcıKayıt={
+"kahraman":"kjdhfj23",
+"bayram":"eıuryfh987",
+"neval":"897nsdfn"    
+    }    
+
+def KayıtlıMı():
+    kullanıcı=input("kullanıcı adını giriniz= ")
+    şifre=input("şifrenizi giriniz= ")
+    try:
+        if kullanıcıKayıt[kullanıcı]==şifre:
+            return "kullanıcı kayıtlı.."
+        else:
+            return "kullanıcı şifresini yanlış girdiniz.."
+    except:
+         print("kullanıcı bulunamadı. lutfen var olan bir kullanıcı gırınız..")
+         KayıtlıMı()
+         
+    
+KayıtlıMı()
+
+
 
 
 
