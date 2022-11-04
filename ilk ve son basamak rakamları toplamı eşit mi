@@ -1,0 +1,10 @@
+# 100000-999999 arasında ki ilk üç basamak ve son 3 basamakta ki rakamlar toplamı birbirine eşit ise yazdır.
+# örnek: 667595, 887995 
+liste=[]
+for m in range(100000,999999):
+    n=str(m)
+    if int(n[0])+int(n[1])+int(n[2])==int(n[3])+int(n[4])+int(n[5]):
+        liste.append(int(n))
+    else:
+        pass
+print(liste)
