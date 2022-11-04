@@ -1,7 +1,6 @@
-# bir sayı gırıldıgınde for dongusunden dolayı bır suru kez aynı sonucu yazıyor. ben tek sefer de bunu yazdırmak ıstıyorum.
-1.ornek:
+# 1.ornek:
 liste=[4,45,67,8,4,789,64,36]
-def fx():
+while True:
     try:
         number=float(input("listede var mı= "))
         for m in liste:
@@ -9,16 +8,16 @@ def fx():
                 print(True)
             else:
                 print(False)
+                break 
     except:
         print("listede sadece float deger bulunuyor. lutfen uygun deger gırınız...")
-        fx()
         
-fx()
+        
 
 
 
 
-2.ornek:
+# 2.ornek:
 kullanıcıKayıt={
 "kahraman":"kjdhfj23",
 "bayram":"eıuryfh987",
@@ -35,11 +34,10 @@ def KayıtlıMı():
             return "kullanıcı şifresini yanlış girdiniz.."
     except:
          print("kullanıcı bulunamadı. lutfen var olan bir kullanıcı gırınız..")
-         KayıtlıMı()
+         
          
     
-KayıtlıMı()
-
+print(KayıtlıMı())
 
 
 
