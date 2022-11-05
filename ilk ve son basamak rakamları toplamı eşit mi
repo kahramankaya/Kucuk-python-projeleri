@@ -8,3 +8,16 @@ for m in range(100000,999999):
     else:
         pass
 print(liste)
+
+
+
+
+#2. yol daha güzel 
+# 100000 ile 999999 arasında ki sayılarıda hangisinin ilk 3 basamağında ki 3 rakamın toplamı son 3 basamağında ki rakamın toplamı eşit ise bunları yazdır.
+
+for m in range(100000,999999):
+    kk=sum([int(n) for n in str(m)[0:3]])
+    kl=sum([int(l) for l in str(m)[3:]])
+    if kk==kl:
+        print(m)
+
